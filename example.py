@@ -1,0 +1,9 @@
+from DatasetProcessor import DatasetProcessor
+
+datasetProcessor = DatasetProcessor("dataset/data_covid.csv")
+print(datasetProcessor.pandasDataset)
+print(datasetProcessor.pandasDatasetTowLatestMonth)
+print(datasetProcessor.pandasDatasetFilteredByUsedColumns)
+print(datasetProcessor.pandasDatasetNotIncludeIndonesiaLocation)
+print(datasetProcessor.pandasDatasetGroupedByLocation)
+print(datasetProcessor.pandasDataset)
